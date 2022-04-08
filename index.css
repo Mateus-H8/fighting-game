@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+.container-div {
+
+    position: relative;
+    display: inline-block;
+
+}
+
+.small-container {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+}
+
+.container-life1 {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+    border: 4px solid white;
+    border-right: 0;
+}
+
+.container-life2 {
+    position: relative;
+    width: 100%;
+    border: 4px solid white;
+    border-left: 0;
+}
+
+.life-player1 {
+    background-color: red;
+    height: 30px;
+    width: 100%;
+}
+
+.life-player2 {
+    background-color: red;
+    height: 30px;
+}
+
+.timer{
+    background-color: black;
+    height: 50px;
+    width: 100px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 32px;
+    border: 4px solid yellow;
+}
+
+.damage1 {
+    position: absolute;
+    background: #818CF8;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+.damage2 {
+    position: absolute;
+    background: #818CF8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.result {
+    position: absolute;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+}
